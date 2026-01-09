@@ -6,21 +6,6 @@ This project is a full-stack CRUD (Create, Read, Update, Delete) application bui
 - Database: SQL-based storage for persistent data.
 The application allows users to perform CRUD operations seamlessly through the UI, with FastAPI managing requests and responses between the frontend and backend.
 
- ## Project Structure
-project-root/
-│
-├── frontend/        # User interface (HTML, CSS, JS or React/Vue/Angular)
-│   └── ...          # Components, pages, assets
-│
-├── backend/         # FastAPI application
-│   ├── main.py      # Entry point for FastAPI server
-│   ├── models.py    # SQLAlchemy models
-│   ├── crud.py      # CRUD operations
-│   ├── database.py  # Database connection setup
-│   └── routers/     # API routes
-│
-└── README.md        # Project documentation
-
 ## Features
 - User-friendly frontend UI for CRUD operations.
 - FastAPI backend with modular routes and controllers.
